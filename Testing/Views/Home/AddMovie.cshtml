@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "MovieAdd";
+}
+@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@model Testing.ViewModel.AddMovieView
+
+
+<div>
+    <form asp-controller="home" asp-action="Add" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Title" class="col-md-2 control-label">Title</label>
+            <div class="col-md-10">
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Year" class="col-md-2 control-label">Year</label>
+            <div class="col-md-10">
+                <input asp-for="Year" class="form-control" />
+                <span asp-validation-for="Year" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description" class="col-md-2 control-label">Description</label>
+            <div class="col-md-10">
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Stars" class="col-md-2 control-label">Rating</label>
+            <div class="col-md-10">
+                <input asp-for="Stars" class="form-control" />
+                <span asp-validation-for="Stars" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <select class="selectpicker" name="GenreID">
+                @foreach (var item in Model.Genres)
+                {
+                    <option value="@item.GenreID">@item.Description</option>
+                }
+            </select>
+
+        </div>
+        <div class="form-group">
+            <select class="selectpicker" name="DirectorID">
+                @foreach (var item in Model.Directors)
+                {
+                    <option value="@item.PersonID">@(item.FirstName + " " + item.LastName) </option>
+                }
+            </select>
+
+        </div>
+        <button type="submit">test</button>
+    </form>
+</div>

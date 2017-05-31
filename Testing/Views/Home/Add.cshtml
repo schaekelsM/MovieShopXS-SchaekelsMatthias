@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Testing.ViewModel.MovieView>
+@{
+    ViewData["Title"] = "MovieAdd";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Genre</th>
+            <th>Director</th>
+            <th>rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Movie.Title</td>
+                <td>@item.Movie.Year</td>
+                <td>@item.Genre.Description</td>
+                <td>@(item.Director.FirstName + " " + item.Director.LastName)</td>
+                <td>@item.Genre.Description</td>
+                <td>
+                    @for (int i = 0; i < item.Movie.Stars; i++)
+                    {
+                        <img class="iconSelfRow" src="@Url.Content("~/images/starIcon.png")" />
+                    }
+                </td>
+                <td><a href='@Url.Action("Remove", "home",  new { movieID = item.Movie.MovieID })'><span class='glyphicon glyphicon-trash'></span></a></td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Html.ActionLink("Add Movie", "AddMovie", "home");

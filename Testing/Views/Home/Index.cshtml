@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Testing.ViewModel.MovieView>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+   </div>
+    <h3>Door defecte laptop dat resulteerde in het last miniut lenen van een laptop. hebbik het vorige examen moeten hermaken in deze examen tijd</h3>
+    <div id="MovieShowCase">
+        @foreach (var item in Model)
+        {
+            <div>
+                <img src="@(Url.Content("~/images/" + item.Movie.Title) + ".jpg")" />
+                <h2>@item.Movie.Title</h2>
+                <p>@item.Movie.Description</p>
+                <span>@item.Movie.Year</span>
+                <h3>Director</h3>
+                <p><strong>@(item.Director.FirstName + " " + item.Director.LastName) </strong></p>
+                <h3>Actors</h3>
+                <ul>
+                    @foreach (var actor in item.Actors)
+                    {
+                        <li> @(actor.FirstName + " " + actor.LastName ) </li>
+                    }
+                </ul>
+                <h3>Rating</h3>
+                <div class="iconRow">
+                    @for (int i = 0; i < item.Movie.Stars; i++)
+                    {
+                        <img class="iconSelfRow" src="@Url.Content("~/images/starIcon.png")" />
+                    }
+                </div>
+                <input type="number" min="0" max="10" name="rate" id="@(item.Movie.MovieID)rate" value="@item.Movie.Stars" />
+                @Html.ActionLink("Rate", "Rate", "home", new { rating = "xxx", movieID = item.Movie.MovieID }, new { @class = "link", @data = item.Movie.MovieID });
+            </div>
+        }
+    </div>
+</div>
+<script src="@Url.Content("~/lib/jquery/dist/jquery.js")"></script>
+<script src="@Url.Content("~/js/site.js")"></script>
+<script>
+    console.log(globaltest());
+</script>

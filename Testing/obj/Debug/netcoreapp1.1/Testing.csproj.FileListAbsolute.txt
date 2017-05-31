@@ -1,0 +1,18 @@
+C:\Users\Matth\documents\visual studio 2017\Projects\Testing\Testing\bin\Debug\netcoreapp1.1\Testing.deps.json
+C:\Users\Matth\documents\visual studio 2017\Projects\Testing\Testing\bin\Debug\netcoreapp1.1\Testing.runtimeconfig.json
+C:\Users\Matth\documents\visual studio 2017\Projects\Testing\Testing\bin\Debug\netcoreapp1.1\Testing.runtimeconfig.dev.json
+C:\Users\Matth\documents\visual studio 2017\Projects\Testing\Testing\bin\Debug\netcoreapp1.1\Testing.dll
+C:\Users\Matth\documents\visual studio 2017\Projects\Testing\Testing\obj\Debug\netcoreapp1.1\Testing.csprojResolveAssemblyReference.cache
+C:\Users\Matth\documents\visual studio 2017\Projects\Testing\Testing\obj\Debug\netcoreapp1.1\Testing.AssemblyInfo.cs
+C:\Users\Matth\documents\visual studio 2017\Projects\Testing\Testing\bin\Debug\netcoreapp1.1\Testing.pdb
+C:\Users\Matth\documents\visual studio 2017\Projects\Testing\Testing\obj\Debug\netcoreapp1.1\Testing.dll
+C:\Users\Matth\documents\visual studio 2017\Projects\Testing\Testing\obj\Debug\netcoreapp1.1\Testing.pdb
+D:\AspDingen\Examples\Testing\Testing\bin\Debug\netcoreapp1.1\Testing.deps.json
+D:\AspDingen\Examples\Testing\Testing\bin\Debug\netcoreapp1.1\Testing.runtimeconfig.json
+D:\AspDingen\Examples\Testing\Testing\bin\Debug\netcoreapp1.1\Testing.runtimeconfig.dev.json
+D:\AspDingen\Examples\Testing\Testing\obj\Debug\netcoreapp1.1\Testing.csprojResolveAssemblyReference.cache
+D:\AspDingen\Examples\Testing\Testing\obj\Debug\netcoreapp1.1\Testing.AssemblyInfo.cs
+D:\AspDingen\Examples\Testing\Testing\obj\Debug\netcoreapp1.1\Testing.dll
+D:\AspDingen\Examples\Testing\Testing\obj\Debug\netcoreapp1.1\Testing.pdb
+D:\AspDingen\Examples\Testing\Testing\bin\Debug\netcoreapp1.1\Testing.dll
+D:\AspDingen\Examples\Testing\Testing\bin\Debug\netcoreapp1.1\Testing.pdb

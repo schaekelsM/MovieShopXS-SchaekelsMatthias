@@ -1,0 +1,11 @@
+D:\AspDingen\Examples\Testing\MovieShopWebApi\bin\Debug\netcoreapp1.1\MovieShopWebApi.deps.json
+D:\AspDingen\Examples\Testing\MovieShopWebApi\bin\Debug\netcoreapp1.1\MovieShopWebApi.runtimeconfig.json
+D:\AspDingen\Examples\Testing\MovieShopWebApi\bin\Debug\netcoreapp1.1\MovieShopWebApi.runtimeconfig.dev.json
+D:\AspDingen\Examples\Testing\MovieShopWebApi\obj\Debug\netcoreapp1.1\MovieShopWebApi.csprojResolveAssemblyReference.cache
+D:\AspDingen\Examples\Testing\MovieShopWebApi\obj\Debug\netcoreapp1.1\MovieShopWebApi.AssemblyInfo.cs
+D:\AspDingen\Examples\Testing\MovieShopWebApi\bin\Debug\netcoreapp1.1\MovieShopWebApi.dll
+D:\AspDingen\Examples\Testing\MovieShopWebApi\bin\Debug\netcoreapp1.1\MovieShopWebApi.pdb
+D:\AspDingen\Examples\Testing\MovieShopWebApi\bin\Debug\netcoreapp1.1\Testing.dll
+D:\AspDingen\Examples\Testing\MovieShopWebApi\bin\Debug\netcoreapp1.1\Testing.pdb
+D:\AspDingen\Examples\Testing\MovieShopWebApi\obj\Debug\netcoreapp1.1\MovieShopWebApi.dll
+D:\AspDingen\Examples\Testing\MovieShopWebApi\obj\Debug\netcoreapp1.1\MovieShopWebApi.pdb
